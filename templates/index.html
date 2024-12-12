@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Poto - ci</title>
+        
+        <!-- Link CSS Style.css file-->
+        
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+
+        
+    </head>
+    <body>
+        <div class='moon'>
+            <div class='crater1'></div>
+            <div class='crater2'></div>
+            <div class='crater3'></div>
+        </div>
+        
+        <canvas id="canvas"></canvas>
+        
+        <div id="sea"></div>
+        <div id="beach"></div>
+        
+     
+        
+        <div id="merrywrap" class="merrywrap">
+            <div class="giftbox">
+                <div class="cover">
+                    <div></div>
+                </div>
+                
+                <div class="box"></div>
+            </div>
+            
+            <div class="icons">
+                <div class="row">
+                    <span>F</span>
+                    <span>E</span>
+                    <span>L</span>
+                    <span>I</span>
+                    <span>Z</span>
+                    
+                </div>
+                <div class="row">
+                    <span>C</span>
+                    <span>U</span>
+                    <span>M</span>
+                    <span>P</span>
+                    <span>L</span>
+                    <span>E</span>
+                    <span>A</span>
+                    <span>Ñ</span>
+                    <span>O</span>
+                    <span>S</span>
+
+                </div>
+                
+                <div class="row">
+                    <span>P</span>
+                    <span>O</span>
+                    <span>T</span>
+                    <span>O</span>
+                </div>
+            </div>
+        </div>
+        
+        <div id="video"></div>
+        <div id="message-container">
+            <div id="message-wrapper">
+                <p class="message">¡Feliz cumpleaños POTOOO ptm🎉</p>
+                <p class="message">PASALA JOYITA PoTOOOO</p>
+                <p class="message">Pese a que no hablamos mucho poto </p>
+                <p class="message">de las pocas personas que me caen</p>
+                <p class="message">Anda a loquear poto, despues iremos a comer terminando mi semestre e bierda </p>
+                <p class="message">psdta: bañate qlo</p>
+                <p class="message">atte: qlo</p>
+            </div>
+        </div>
+        
+        <script src="{{ url_for('static', filename='js/index.js') }}"></script>
+        
+    </body>
+</html>
